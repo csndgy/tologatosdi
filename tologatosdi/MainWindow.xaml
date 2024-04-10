@@ -1,0 +1,23 @@
+﻿<Window x:Class="tologatosdi.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:tologatosdi"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="600">
+    <Grid x:Name="gridRacs" Background="#FF5798D0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="7*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button Grid.Column="0" Grid.Row="1" Content="gergo gonb" FontSize="32" Height="40" Width="250" FontFamily="Courier New" Grid.ColumnSpan="3" Click="Button_Click" Background="#FFBDD6FF"/>
+        <Grid x:Name="grdPanel" Background="LightSkyBlue"
+              ShowGridLines="True">
+        </Grid>
+    </Grid>
+    
+</Window>
